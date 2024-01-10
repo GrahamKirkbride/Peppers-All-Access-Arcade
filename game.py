@@ -1,9 +1,18 @@
 import displayio
+import random
+import termalio
+from adafruit_display_text import label
+from time import sleep
 
 game_group = displayio.Group()
 
+cowboy = displayio.OnDiskBitmap()
+desert = displayio.OnDiskBitmap()
 
-
+random.randint(2,6)
+def dynam_timer():
+    
+    
 
 def game_setup():
     """this is called once to initialize your game features"""
